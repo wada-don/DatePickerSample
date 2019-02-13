@@ -15,6 +15,7 @@
 		1B61846E2213D70A00BC1091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B61846C2213D70A00BC1091 /* LaunchScreen.storyboard */; };
 		1B6184792213D70A00BC1091 /* DatePickerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6184782213D70A00BC1091 /* DatePickerSampleTests.swift */; };
 		1B6184842213D70A00BC1091 /* DatePickerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6184832213D70A00BC1091 /* DatePickerSampleUITests.swift */; };
+		1B6184922213DB4300BC1091 /* DateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6184912213DB4300BC1091 /* DateModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1B61847F2213D70A00BC1091 /* DatePickerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePickerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6184832213D70A00BC1091 /* DatePickerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerSampleUITests.swift; sourceTree = "<group>"; };
 		1B6184852213D70A00BC1091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6184912213DB4300BC1091 /* DateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1B6184602213D70800BC1091 /* AppDelegate.swift */,
 				1B6184622213D70800BC1091 /* ViewController.swift */,
+				1B6184912213DB4300BC1091 /* DateModel.swift */,
 				1B6184642213D70800BC1091 /* Main.storyboard */,
 				1B61846A2213D70A00BC1091 /* Assets.xcassets */,
 				1B61846C2213D70A00BC1091 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B6184632213D70800BC1091 /* ViewController.swift in Sources */,
+				1B6184922213DB4300BC1091 /* DateModel.swift in Sources */,
 				1B6184612213D70800BC1091 /* AppDelegate.swift in Sources */,
 				1B6184692213D70800BC1091 /* DatePickerSample.xcdatamodeld in Sources */,
 			);
